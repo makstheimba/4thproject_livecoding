@@ -9,6 +9,26 @@
   <link rel="stylesheet" href="./index.css">
 </head>
 <body>
+    <div class="profile">
+        <div>
+          <span>Name:</span><span class="profile__value profile__value_type_name">Michael</span>
+        </div>
+        <div>
+          <span>Favorite food:</span><span class="profile__value profile__value_type_food">Coffee</span>
+        </div>
+        <button class="profile__button">Edit</button>
+    </div>
+    <div class="popup">
+      <div class="popup__content">
+        <h2 class="popup__title">Edit profile</h2>
+        <button class="popup__close">Close</button>
+        <form class="popup__form">
+          <label>Name <input class="popup__input popup__input_type_name" /></label>
+          <div><label for="input-food">Favorite food</label><input id="input-food" class="popup__input popup__input_type_food" /></div>
+          <button class="popup__submit" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
     <script src="./index.js" defer></script>
 </body>
 </html>

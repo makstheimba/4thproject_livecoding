@@ -1,0 +1,63 @@
+.profile {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+}
+
+.profile__value {
+    font-weight: bold;
+}
+
+.profile__button {
+    margin-top: 20px;
+}
+
+
+.popup {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(97, 91, 91, 0.582);
+    display: none;
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup__is-opened {
+    display: flex;
+    visibility: initial;
+}
+
+.popup__content {
+    max-width: 500px;
+    min-width: 300px;
+    padding: 10px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+}
+
+.popup__close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.popup__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup__input {
+    margin-bottom: 10px;
+}
